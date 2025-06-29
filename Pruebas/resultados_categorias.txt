@@ -1,0 +1,60 @@
+[2025-06-28 15:20:35.755085] Test Categoría CRUD: ❌ Error: Message: element click intercepted: Element <a href="#" class="btn btn-default" title="Editar categoría" data-nombre="TestCategoria_20250628191313" data-descripcion="Descripción inicial" data-id="13" data-toggle="modal" data-target="#myModal2">...</a> is not clickable at point (1082, 414). Other element would receive the click: <div class="modal fade in" id="nuevoCliente" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block;">...</div>
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000104556358 chromedriver + 6136664
+1   chromedriver                        0x000000010454daba chromedriver + 6101690
+2   chromedriver                        0x0000000103fe2380 chromedriver + 418688
+3   chromedriver                        0x000000010403adc0 chromedriver + 781760
+4   chromedriver                        0x0000000104038c1b chromedriver + 773147
+5   chromedriver                        0x00000001040362b2 chromedriver + 762546
+6   chromedriver                        0x00000001040359d0 chromedriver + 760272
+7   chromedriver                        0x000000010402805d chromedriver + 704605
+8   chromedriver                        0x000000010405a1f2 chromedriver + 909810
+9   chromedriver                        0x00000001040279d8 chromedriver + 702936
+10  chromedriver                        0x000000010405a3ae chromedriver + 910254
+11  chromedriver                        0x0000000104081d82 chromedriver + 1072514
+12  chromedriver                        0x0000000104059fc3 chromedriver + 909251
+13  chromedriver                        0x0000000104026217 chromedriver + 696855
+14  chromedriver                        0x0000000104026e81 chromedriver + 700033
+15  chromedriver                        0x0000000104514220 chromedriver + 5866016
+16  chromedriver                        0x000000010451818f chromedriver + 5882255
+17  chromedriver                        0x00000001044ef5c2 chromedriver + 5715394
+18  chromedriver                        0x0000000104518aef chromedriver + 5884655
+19  chromedriver                        0x00000001044ddd84 chromedriver + 5643652
+20  chromedriver                        0x000000010453b2b8 chromedriver + 6025912
+21  chromedriver                        0x000000010453b480 chromedriver + 6026368
+22  chromedriver                        0x000000010454d681 chromedriver + 6100609
+23  libsystem_pthread.dylib             0x00007ff80c3bfdf1 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff80c3bb857 thread_start + 15
+
+[2025-06-28 15:29:30.156362] Crear nueva categoría: ✅ Categoría 'Categoria_152923' creada exitosamente
+[2025-06-28 15:36:47.794174] Editar categoría: ❌ Error al editar categoría: Message: 
+
+[2025-06-28 15:38:54.694135] Crear nueva categoría: ✅ Categoría 'Categoria_153847' creada exitosamente
+[2025-06-28 15:42:00.009632] Borrar categoría: ✅ Categoría borrada correctamente
+[2025-06-28 19:06:55] Crear categoría vacía: ❌ Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="nuevoCliente"]"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010ce36358 chromedriver + 6136664
+1   chromedriver                        0x000000010ce2daba chromedriver + 6101690
+2   chromedriver                        0x000000010c8c2380 chromedriver + 418688
+3   chromedriver                        0x000000010c913f34 chromedriver + 753460
+4   chromedriver                        0x000000010c914151 chromedriver + 754001
+5   chromedriver                        0x000000010c9649d4 chromedriver + 1083860
+6   chromedriver                        0x000000010c93a21d chromedriver + 909853
+7   chromedriver                        0x000000010c961d82 chromedriver + 1072514
+8   chromedriver                        0x000000010c939fc3 chromedriver + 909251
+9   chromedriver                        0x000000010c906217 chromedriver + 696855
+10  chromedriver                        0x000000010c906e81 chromedriver + 700033
+11  chromedriver                        0x000000010cdf4220 chromedriver + 5866016
+12  chromedriver                        0x000000010cdf818f chromedriver + 5882255
+13  chromedriver                        0x000000010cdcf5c2 chromedriver + 5715394
+14  chromedriver                        0x000000010cdf8aef chromedriver + 5884655
+15  chromedriver                        0x000000010cdbdd84 chromedriver + 5643652
+16  chromedriver                        0x000000010ce1b2b8 chromedriver + 6025912
+17  chromedriver                        0x000000010ce1b480 chromedriver + 6026368
+18  chromedriver                        0x000000010ce2d681 chromedriver + 6100609
+19  libsystem_pthread.dylib             0x00007ff80c3bfdf1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff80c3bb857 thread_start + 15
+
+[2025-06-28 19:09:58.150520] Crear categoría vacía: ✅ No se permitió crear categoría vacía (correcto)

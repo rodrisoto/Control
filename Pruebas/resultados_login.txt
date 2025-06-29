@@ -1,0 +1,9 @@
+RESULTADOS PRUEBAS LOGIN
+
+[2025-06-28 18:55:04] Login válido: ✅ Éxito esperado (⏱ 2.09s)
+[2025-06-28 18:55:11] Logout después de login: ✅ Logout exitoso
+[2025-06-28 18:55:42] Crear nuevo usuario: ✅ Usuario creado correctamente
+[2025-06-28 19:42:44] Crear usuario con correo inválido: ❌ El sistema aceptó un correo inválido
+[2025-06-28 19:52:49] Crear usuario con correo inválido: ❌ El sistema aceptó un correo inválido
+[2025-06-28 20:02:39] Crear usuario con correo inválido: ❌ El sistema aceptó un correo inválido
+[2025-06-28 20:04:17] Crear usuario con correo inválido: ✅ Correo inválido fue rechazado correctamente
